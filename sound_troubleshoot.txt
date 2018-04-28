@@ -1,0 +1,8 @@
+cd /usr/share/sounds/alsa
+
+aplay Noise.wav
+
+--> if it raises any error search for that
+
+eg. one reason could be the corrupted /usr/share/alsa/alsa.conf
+(the solution was to remove the corrupted one and replace it with one from the internet)
